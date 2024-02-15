@@ -18,10 +18,11 @@
 
 ## Terraform Deployment
 
-1. Change directory into the Terraform directory:
+
+1. Change directory into the Terraform directory and initialize terraform:
 
     ```bash
-    cd terraform
+    cd terraform && terraform init
     ```
 
 2. Run Terraform plan:
